@@ -1,4 +1,6 @@
+import Contador from "@/components/Contador";
 import Helloworld from "@/components/Helloworld";
+import Info from "@/components/Info";
 import User from "@/components/User";
 import Head from "next/head";
 
@@ -14,8 +16,12 @@ export default function Home() {
       <h1>Olá Mundo! Meu Primeiro Site em React!</h1>
       {/* Comentário no JSX */}
       {/* Importando o primeiro componente */}
-      <Helloworld/>
-      <User/>
+      <Helloworld />
+      <User />
+      <br />
+      <Contador />
+      <br />
+      <Info />
     </>
   );
 }
