@@ -1,0 +1,24 @@
+/* Classes com escopo local (funciona somente no componente) para CSS */
+.luz{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 4px;
+    background-color: white;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.verde{
+    background-color: green;
+}
+
+.cinza{
+    background-color: gray;
+}
